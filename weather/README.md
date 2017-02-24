@@ -18,6 +18,11 @@ this is an application that allow you to find the weather and temperature in a c
 
 ## Installation
 
+before the start :
+install Node on your computer.
+
+[Download Node](https://nodejs.org/en/download/)
+
 1. Fork the application
 2. In the weather directory install node
 	- open a console command, go to weather direcotry
