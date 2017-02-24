@@ -8,6 +8,8 @@ module.exports = (opts, callback) => {
 
 	let query;
 
+//get weather information on internet depending of the city selectionned
+// default value : Dhaka, Bangladesh
 	if (_.isEmpty(opts)) {
 		query = new YQL('select * from weather.forecast where woeid in (select woeid from geo.places(1) where text="Dhaka, Bangladesh")');
 	} else {
