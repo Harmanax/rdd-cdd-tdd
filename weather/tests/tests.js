@@ -3,6 +3,8 @@
 const chai = require('chai');
 chai.should();
 
+var expect = require("chai").expect;
+
 var assert = require('assert');
 const meow = require('meow');
 const chalk = require('chalk');
@@ -11,6 +13,7 @@ const pkg = require('../package.json');
 
 const weather = require('../index.js');
 
+
 describe('Weather', () => {
 	it('should get the weather', function() {
 		assert.notEqual(undefined, meow);
@@ -18,7 +21,8 @@ describe('Weather', () => {
     	assert.notEqual(undefined, updateNotifier);
 	});
 
-	describe("linkTo", function(){
-		expect(pkg.linkTo).to.exist;
-	})
+	it("linkTo", function(){
+		expect(pkg).to.exist;
+		expect(weather).to.exist;
+	});
 });
