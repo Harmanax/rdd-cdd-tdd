@@ -6,7 +6,7 @@
 
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Just tell me what to do](#just-tell-me-what-to-do)
+- [Use](#use)
 - [Licence](#licence)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -21,21 +21,21 @@ this is an application that allow you to find the weather and temperature in a c
 1. Fork the application
 2. In the weather directory install node
 	- open a console command, go to weather direcotry
+```sh
 > npm install
-3. run the application with the parameters you want
+```
+
+## Use
+
+1. run the application with the parameters you want
+
+```sh
 > node cli.js     				= defaults parameters
+```
+```sh
 > node cli.js Paris France C 	= weather in paris (in france) Celcius temperature 
+```
 
-
-
-## Just tell me what to do
-
-1. Fork the project via `github`
-1. Clone the project `git clone https://github.com/YOUR_USERNAME/rdd-cdd-tdd`
-1. Update [README.md](./weather/README.md) file
-1. Update [tests file](./test)
-1. Update [lib](./lib) JSDoc comments
-1. Don't forget to commit and push
 
 ## Licence
 
